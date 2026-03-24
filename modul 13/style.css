@@ -1,0 +1,46 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+A:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+ul{
+    list-style-type: square;
+    padding: 0px;
+    border: 2px solid black;
+}
+ul li{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+ol{
+    list-style-type: upper-roman;
+    padding: 0px;
+    background-color: #ffe5e5;
+}
+
+ol li{
+    background-color: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd){
+    background-color: #e5e5ff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ac8c99;
+}
