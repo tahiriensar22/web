@@ -30,7 +30,7 @@ ol li{
     padding: 10px;
     margin-left: 30px;
 }
-td, th{
+/* td, th{
     border: 1px solid black;
     padding: 10px;
 }
@@ -43,4 +43,21 @@ tbody tr:nth-child(odd){
 
 tbody tr:nth-child(even){
     background-color: #ac8c99;
+} */
+div{
+    overflow:auto;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 3px solid black;
+    text-align: center;
+    
 }
