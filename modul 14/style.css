@@ -1,0 +1,28 @@
+article p{
+background-color: blue;
+color: black;
+padding: 20px;
+}
+article > p{
+    background-color: aqua;
+}
+article ~ p{
+    background-color: blueviolet;
+    color: black;
+padding: 20px
+}
+article +p{
+    background-color: orange;
+}
+form :invalid{
+    border: 2px solid red;
+}
+form :valid{
+    border: 2px solid green; 
+}
+input:in-range{
+      border: 2px solid green; 
+}
+input:out-of-range{
+    border: 2px solid rgb(128, 0, 11);
+}
