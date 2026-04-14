@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+#horizontal-menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkgreen;
+}
+#horizontal-menu li{
+    float: left;
+}
+#horizontal-menu li a{
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+#horizontal-menu li a:hover:not(.active){
+    background-color: blue;
+}
+.active{
+    background-color: grey;
+}
