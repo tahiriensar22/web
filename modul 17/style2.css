@@ -1,0 +1,39 @@
+body{
+    counter-reset:number;
+}
+h2::before{
+    counter-increment:number;
+    content: counter(number);
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px 12px;
+    color: aqua;
+    margin: 10px;
+}
+:root{
+    --primary-color:#1c47477c;
+    --ngjyra_e_dyt:#861f1f;
+    --padding:20px;
+}
+.vars{
+    background-color: var(--primary-color);
+    color: var(--ngjyra_e_dyt);
+    padding: var(--padding);
+}
+.rounded{
+    display: flex;
+}
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(./wallpaper.jpg);
+}
+.rounded #example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 10px;
+    background-color: aqua;
+}
