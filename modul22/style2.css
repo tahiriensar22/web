@@ -1,15 +1,48 @@
-body{
+body {
+    color: black;
     background-color: red;
-    color: white;
-    font-size: larger;
-    text-align: center;
 }
-.text{
-    font-size: larger;
+.about-content {
+    margin-top: 100px;
+    max-width: 850px;
 }
-.textt{
-color: white;
-font-size: larger ;
-text-align: justify;
 
+.about-content h1 {
+    margin: 0 0 18px;
+    font-size: 3rem;
+}
+
+.about-content p {
+    color: #f4f4f4;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    max-width: 820px;
+}
+
+.about-grid {
+    display: grid;
+    gap: 24px;
+    margin-top: 34px;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.about-card h2 {
+    margin: 0 0 12px;
+    font-size: 1.3rem;
+}
+
+.about-history {
+    margin-top: 36px;
+    max-width: 820px;
+}
+
+.about-history h2 {
+    margin-bottom: 14px;
+    font-size: 1.5rem;
 }
