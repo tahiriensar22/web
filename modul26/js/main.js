@@ -45,3 +45,10 @@ var name="Ensar"
 var lastname="Tahiri"
 var fullname=name + " " + lastname;
 console.log(fullname);
+
+var age=24;
+console.log(age >=23 && age<=65);
+
+var age=23;
+console.log(age >=22 || age<=65);
+
