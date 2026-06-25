@@ -7,9 +7,9 @@ var text1=document.getElementById('text1');
 
 
 var button2 = document.getElementById("btn2");
-button2.onmouseover=function(){
-    alert('vendose mausin');
-}
+// button2.onmouseover=function(){
+//     alert('vendose mausin');
+// }
 
 
 button1.ondblclick=function(){
@@ -32,3 +32,4 @@ button4.onclick=function(){
     text1.setAttribute("class","text1");
 }
 
+  
